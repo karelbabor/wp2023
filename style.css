@@ -1,0 +1,44 @@
+/*
+  Theme Name: wp2023
+  Theme URI: https://karelbabor.com
+  Author: Karel Babor
+  Author URI: https://karelbabor.com
+  Description: A simple WordPress theme.
+  Version: 1.0
+  Requires at least: 5.8
+  Tested up to: 6.0
+  Requires PHP: 7.0
+  Text Domain: wp2023
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/*
+
+font-family: 'Pacifico', cursive;
+font-family: 'Rubik', sans-serif;
+
+body {
+  --wp--preset--font-size--small: 0.8rem;
+  --wp--preset--font-size--medium 1rem:
+  --wp--preset--font-size--large: 1.25rem;
+  --wp--preset--font-size--x-large: 1.563rem;
+}
+
+.has-small-font-size {
+    font-size: var(--wp--preset--font-size--small) !important;
+}
+
+.has-medium-font-size {
+    font-size: var(--wp--preset--font-size--medium) !important;
+}
+
+.has-large-font-size {
+    font-size: var(--wp--preset--font-size--large) !important;
+}
+
+.has-x-large-font-size {
+    font-size: var(--wp--preset--font-size--x-large) !important;
+}
+*/

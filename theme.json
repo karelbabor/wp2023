@@ -1,0 +1,158 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "b-white", "color": "rgb(255,255,255)", "name": "Babor white" },
+        { "slug": "b-black", "color": "rgb(55,55,55)", "name": "Babor black" }
+      ],
+      "background": true,
+      "text": true,
+      "link": false,
+      "custom": false,
+      "duotone": [
+        { "slug": "u-pink-sunset", "colors": ["#11245e", "#dc4379"], "name": "udemy pink Sunset"}
+      ],
+      "defaultGradients": false,
+      "gradients": [
+        {
+          "slug": "u-summer-dog",
+          "name": "Udemy Summer Dog",
+          "gradient": "linear-gradient(#a8ff78, #78ffd6)"
+        }
+      ]
+    },
+    "blocks": {
+      "core/site-title": {
+        "color": {
+          "link": true,
+          "gradients": [],
+          "customGradient": false
+        },
+        "typography": {
+          "fontFamilies": [
+            { 
+              "fontFamily": "Pacifico, sans-serif", 
+              "slug": "u-pacifico",
+              "name": "Udemy Pacifico" 
+            }
+          ]
+        }
+      },
+      "core/cover": {
+        "color": {
+          "duotone": [],
+          "customDuotone": false
+        }
+      },
+      "core/button": {},
+      "core/pullquote": {},
+      "core/preformatted": {
+        "typography": { 
+          "fontSizes": [], 
+          "customFontSize": false
+        }
+      }
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "typography": {
+      "fontFamilies": [
+        { 
+          "fontFamily": "Rubic, sans-serif", 
+          "slug": "u-rubik",
+          "name": "Udemy Rubik" 
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "0.75rem", "name": "Small" },
+        { "slug": "medium", "size": "1.25rem", "name": "Medium" },
+        { "slug": "large", "size": "2.25rem", "name": "Large" },
+        { "slug": "x-large", "size": "3rem", "name": "Extra Large" }, 
+        { "slug": "gigantic", "size": "3.75rem", "name": "Gigantic" }
+      ],
+      "lineHeight": true, 
+      "dropCap": true, 
+      "fontWeight": true, 
+      "fontStyle": true, 
+      "textTransform": true, 
+      "letterSpacing": true, 
+      "textDecoration": true
+    },
+    "layout": { 
+      "contentSize": "840px", 
+      "wideSize": "1100px"
+    },
+    "spacing": { 
+      "margin": true, 
+      "padding": true,
+      "units": ["px", "rem", "%", "vw", "vh"],
+      "blockGap": true
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--u-gray-700)",
+      "background": "var(--wp--preset--color--u-white)"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "#F00"
+        }
+      },
+      "h1": {},
+      "heading": {},
+      "button": {}
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "gradient": "var(--wp--preset--gradient--u-summer-dog)"
+        }
+      },
+      "core/pullquote": {
+        "border": {
+          "width": "10px",
+          "radius": "10px",
+          "style": "solid",
+          "color": "var(--wp--preset--color--u-primary)"
+        }
+      },
+      "core/site-title": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--u-pacifico)"
+        } 
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--u-rubik)", "fontSize": "16px",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "lineHeight": "inherit",
+      "textDecoration": "none",
+      "textTransform": "none"
+    },
+    "spacing": { 
+      "margin": {
+        "top": "0px", 
+        "right": "0px", 
+        "bottom": "0px", 
+        "left": "0px"
+      },
+      "padding": {
+        "top": "0px", 
+        "right": "0px", 
+        "bottom": "0px", 
+        "left": "0px"
+      },
+      "blockGap": "4rem"
+    }  
+  }
+}
